@@ -19,3 +19,54 @@
   font-size: 16px;
   color: #444;
 }
+.projects {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 64px 20px;
+}
+
+.section-title {
+  font-size: 26px;
+  margin: 0 0 18px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 18px;
+  background: #fff;
+}
+
+.project-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.project-desc {
+  margin: 0 0 14px;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.7;
+}
+
+.project-tags {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.project-tags li {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #f2f2f2;
+}
